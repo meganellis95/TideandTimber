@@ -1,6 +1,9 @@
-:root{
-  --ink:#0f172a; --muted:#64748b; --bg:#0b1220; --panel:#0f172a; --card:#0b1324; --ring:rgba(2,6,23,.25);
-  --primary:#60a5fa; --primary-600:#3b82f6; --primary-700:#2563eb; --white:#ffffff;
+:root {
+  --color-inland-pine: #2D4E47;
+  --color-bay-blue: #2D4E5F;
+  --color-dune-grass: #B3B58D;
+  --color-estuary-mist: #D3DBDD;
+  --color-white-sandstone: #F3F0E7;--primary:#60a5fa; --primary-600:#3b82f6; --primary-700:#2563eb; --white:#ffffff;
 }
 *{box-sizing:border-box}
 html,body{margin:0; padding:0}
