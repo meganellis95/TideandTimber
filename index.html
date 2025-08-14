@@ -1,4 +1,9 @@
+# Create directory for new branded version of the website
+full_brand_dir = "/mnt/data/tide-and-timber-full-brand"
+os.makedirs(full_brand_dir, exist_ok=True)
 
+# Updated homepage using full brand and palette
+index_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,12 +32,13 @@
 
   <main>
     <section class="card">
-      <h2>Welcome to Tide & Timber</h2>
-      <p>Specializing in residential and new-build real estate across the Florida Panhandle. Explore Freeport, Destin, 30A, and beyond.</p>
+      <h2>Featured Listings</h2>
+      <img src="https://source.unsplash.com/600x400/?home,modern" alt="Listing" />
+      <p>Explore beautiful properties surrounded by pine and shoreline across Freeport, Destin, and the 30A area.</p>
     </section>
     <section class="card">
-      <h3>Featured Listings</h3>
-      <img src="https://source.unsplash.com/600x400/?house,modern" alt="Listing" style="width:100%; border-radius:10px;" />
+      <h2>Why Choose Us</h2>
+      <p>We are your local experts, connecting buyers to the best new builds in the Florida Panhandle.</p>
     </section>
   </main>
 
