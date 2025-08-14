@@ -1,0 +1,67 @@
+
+:root {
+  --inland-pine: #2A4C47;
+  --bay-blue: #3D5E6F;
+  --dune-grass: #A8AE94;
+  --estuary-mist: #D9E1E7;
+  --white-sandstone: #F0EDE5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: var(--white-sandstone);
+  color: var(--inland-pine);
+}
+
+header {
+  background-color: var(--inland-pine);
+  color: var(--white-sandstone);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background-color: var(--bay-blue);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: var(--white-sandstone);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--dune-grass);
+}
+
+main {
+  padding: 2rem;
+}
+
+.card {
+  background-color: var(--estuary-mist);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: var(--inland-pine);
+  color: var(--white-sandstone);
+  text-align: center;
+  padding: 1rem;
+}
