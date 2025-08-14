@@ -14,25 +14,26 @@ body {
   color: var(--inland-pine);
 }
 
-header, footer {
+header {
   background-color: var(--inland-pine);
-  color: white;
+  color: var(--white-sandstone);
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem 1rem;
 }
 
 nav {
+  background-color: var(--bay-blue);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: var(--bay-blue);
-  padding: 0.5rem;
+  padding: 1rem 0;
 }
 
 nav a {
   color: var(--white-sandstone);
   text-decoration: none;
-  margin: 0.5rem 1rem;
+  margin: 0 1rem;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -45,8 +46,22 @@ main {
 
 .card {
   background-color: var(--estuary-mist);
-  padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 1.5rem;
   margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: var(--inland-pine);
+  color: var(--white-sandstone);
+  text-align: center;
+  padding: 1rem;
 }
