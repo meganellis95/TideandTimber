@@ -1,4 +1,3 @@
-
 :root {
   --inland-pine: #2A4C47;
   --bay-blue: #3D5E6F;
@@ -6,21 +5,18 @@
   --estuary-mist: #D9E1E7;
   --white-sandstone: #F0EDE5;
 }
-
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
   background-color: var(--white-sandstone);
   color: var(--inland-pine);
 }
-
-header {
+header, footer {
   background-color: var(--inland-pine);
   color: var(--white-sandstone);
   text-align: center;
   padding: 2rem 1rem;
 }
-
 nav {
   background-color: var(--bay-blue);
   display: flex;
@@ -28,33 +24,40 @@ nav {
   justify-content: center;
   padding: 1rem 0;
 }
-
 nav a {
   color: var(--white-sandstone);
   text-decoration: none;
   margin: 0 1rem;
   font-weight: bold;
 }
-
 nav a:hover {
   color: var(--dune-grass);
 }
-
 main {
   padding: 2rem;
 }
-
-.card {
+.card, .stats {
   background-color: var(--estuary-mist);
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-
-footer {
-  background-color: var(--inland-pine);
-  color: var(--white-sandstone);
+.stats .kpi {
+  display: inline-block;
+  width: 22%;
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.stats .kpi strong {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--inland-pine);
+}
+.stats .kpi span {
+  font-size: 0.9rem;
+  color: var(--dune-grass);
+}
+footer {
+  margin-top: 2rem;
 }
